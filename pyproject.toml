@@ -6,10 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "typecho-password"
 version = "0.0.1"
 readme = "README.md"
-requires-python = ">=3.5"
-dependencies = [
-    'importlib-metadata; python_version<"3.8"',
-]
+requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
